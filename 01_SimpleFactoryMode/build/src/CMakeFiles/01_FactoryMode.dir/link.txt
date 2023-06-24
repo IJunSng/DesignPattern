@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/01_FactoryMode.dir/Factory.cpp.o CMakeFiles/01_FactoryMode.dir/Product.cpp.o CMakeFiles/01_FactoryMode.dir/main.cpp.o  -o ../../bin/01_FactoryMode 
