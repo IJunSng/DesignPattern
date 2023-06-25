@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode/src/../inc 
+CXX_INCLUDES = -I/home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/./inc 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode
+CMAKE_SOURCE_DIR = /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode/build
+CMAKE_BINARY_DIR = /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode/build/CMakeFiles /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_FactoryMode/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -120,8 +120,89 @@ depend:
 
 # fast build rule for target.
 01_FactoryMode/fast:
-	$(MAKE) -f src/CMakeFiles/01_FactoryMode.dir/build.make src/CMakeFiles/01_FactoryMode.dir/build
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/build
 .PHONY : 01_FactoryMode/fast
+
+src/Factory.o: src/Factory.cpp.o
+
+.PHONY : src/Factory.o
+
+# target to build an object file
+src/Factory.cpp.o:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Factory.cpp.o
+.PHONY : src/Factory.cpp.o
+
+src/Factory.i: src/Factory.cpp.i
+
+.PHONY : src/Factory.i
+
+# target to preprocess a source file
+src/Factory.cpp.i:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Factory.cpp.i
+.PHONY : src/Factory.cpp.i
+
+src/Factory.s: src/Factory.cpp.s
+
+.PHONY : src/Factory.s
+
+# target to generate assembly for a file
+src/Factory.cpp.s:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Factory.cpp.s
+.PHONY : src/Factory.cpp.s
+
+src/Product.o: src/Product.cpp.o
+
+.PHONY : src/Product.o
+
+# target to build an object file
+src/Product.cpp.o:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Product.cpp.o
+.PHONY : src/Product.cpp.o
+
+src/Product.i: src/Product.cpp.i
+
+.PHONY : src/Product.i
+
+# target to preprocess a source file
+src/Product.cpp.i:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Product.cpp.i
+.PHONY : src/Product.cpp.i
+
+src/Product.s: src/Product.cpp.s
+
+.PHONY : src/Product.s
+
+# target to generate assembly for a file
+src/Product.cpp.s:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/Product.cpp.s
+.PHONY : src/Product.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/01_FactoryMode.dir/build.make CMakeFiles/01_FactoryMode.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -132,6 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 01_FactoryMode"
+	@echo "... src/Factory.o"
+	@echo "... src/Factory.i"
+	@echo "... src/Factory.s"
+	@echo "... src/Product.o"
+	@echo "... src/Product.i"
+	@echo "... src/Product.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
