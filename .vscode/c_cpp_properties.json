@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/01_SimpleFactoryMode/inc"
+                "${workspaceFolder}/01_SimpleFactoryMode/inc",
+                "${workspaceFolder}/02_FactoryMode/inc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

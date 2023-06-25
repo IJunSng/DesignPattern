@@ -11,7 +11,7 @@ then
     #创建项目文件
     read -p "请输入项目名：" createProjectName
     mkdir -p $createProjectName/bin $createProjectName/src $createProjectName/inc $createProjectName/build
-    touch $createProjectName/README.txt
+    touch $createProjectName/README.md
     touch $createProjectName/CMakeLists.txt
     echo "执行完成..."
 elif [ $1 == "clean" ]
