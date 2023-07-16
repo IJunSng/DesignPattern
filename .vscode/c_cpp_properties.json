@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/01_SimpleFactoryMode/inc",
-                "${workspaceFolder}/02_FactoryMode/inc"
+                "${workspaceFolder}/02_FactoryMode/inc",
+                "${workspaceFolder}/03_AbstractFactoryMode/inc"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

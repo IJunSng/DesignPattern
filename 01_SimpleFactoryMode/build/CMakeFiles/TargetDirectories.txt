@@ -1,3 +1,0 @@
-/home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles/rebuild_cache.dir
-/home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles/edit_cache.dir
-/home/WUYING_ijunsng_811_15425255/Desktop/projects/DesignPattern/01_SimpleFactoryMode/build/CMakeFiles/01_FactoryMode.dir
